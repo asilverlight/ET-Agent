@@ -17,7 +17,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: /path/to/output
+output_dir: /path/to/output/sft
 logging_steps: 10
 # save_steps: 197
 save_steps: 107

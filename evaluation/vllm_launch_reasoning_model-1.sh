@@ -3,7 +3,7 @@
 use_qwen3=true
 
 # Activate the Conda environment
-source /home/u2024001049/.conda/bin/activate
+source /path/to/conda/bin/activate
 conda activate arpo
 
 # Move to the script's directory
