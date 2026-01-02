@@ -47,7 +47,6 @@ VALID_FILES="/path/to/ARPO/rl_datasets/valid.parquet" # Modify validation data p
 # ============================ Model Configuration ============================
 # Actor model path
 ACTOR_MODEL_PATH="/path/to/output/Efficiency_Qwen_7B_Stage1" # Modify training model path
-# ACTOR_MODEL_PATH="/public/huggingface-models/Qwen/Qwen2.5-0.5B-Instruct"
 
 # ============================ Rollout Configuration ==========================
 # Rollout settings
@@ -66,7 +65,6 @@ SEARCH_CACHE_PATH="/path/to/ARPO/search_cache/search_cache.json" # Modify
 # ============================ Reward Model Configuration ==========================
 # Reward model settings
 REWARD_MANAGER="efficiency"              # Reward manager type
-# CUSTOM_REWARD_FUNCTION_PATH="/data/feifei/ARPO-main/ARPO/verl_arpo_entropy/verl/utils/reward_score/deep_research.py" # Modify reward function path
 CUSTOM_REWARD_FUNCTION_PATH="/path/to/ARPO/verl_arpo_entropy/verl/utils/reward_score/efficiency.py"
 CUSTOM_REWARD_FUNCTION_NAME="compute_score"
 

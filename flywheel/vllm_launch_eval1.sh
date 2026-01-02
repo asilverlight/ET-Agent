@@ -12,11 +12,7 @@ echo "Switched to directory: $SCRIPT_DIR"
 mkdir -p logs   
 
 # Model path - all instances use the same model
-# MODEL_PATH="/fs/archive/share/u2024001021/huggingface_models/Qwen2.5-7B-Instruct"
 MODEL_PATH="/path/to/qwen2.5-72b-instruct"
-# MODEL_PATH="/fs/archive/share/START/models/Qwen/Qwen3-4B-Instruct-2507"
-# MODEL_PATH="/fs/archive/share/u2024001021/huggingface_models/Qwen2.5-7B-Instruct"
-# MODEL_NAME="Qwen2.5-7B-Instruct"
 MODEL_NAME="Qwen2.5-72B-Instruct"
 # MODEL_NAME="Qwen3-4B-Instruct-2507"
 

@@ -537,33 +537,6 @@ if __name__ == "__main__":
     # Add parent directory to path for testing
     sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-    # # Test configuration
-    # cache_file = "<your_search_cache_dir>"
-    # api_key = "<your_api_key>"
-    # zone = "<your_zone>"
-    
-    # # Create search tool instance
-    # search_tool = BingSearchTool(
-    #     api_key=api_key, 
-    #     zone=zone, 
-    #     cache_file=cache_file
-    # )
-
-    # # Test query
-    # query = "甄嬛传导演"
-    # print(f"Searching for: {query}")
-
-    # # Execute search
-    # result = search_tool.execute(query)
-    # print("\nSearch results:\n")
-    # print(result)
-    
-    # # Test cache hit
-    # print("\nExecuting same query again (should hit cache):")
-    # result2 = search_tool.execute(query)
-    # print("\nSearch results:\n")
-    # print(result2)
-
     local_search_url = '0.0.0.0:1243'
     max_results = 5
     max_document_length = 1500
