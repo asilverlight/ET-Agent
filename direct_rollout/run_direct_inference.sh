@@ -13,7 +13,6 @@ infer_endpoints=(
     "http://localhost:9001/v1"
     "http://localhost:9002/v1"
     "http://localhost:9003/v1"
-    "http://localhost:9004/v1"
 )  
 summary_endpoints=(
     "http://localhost:8021/v1"

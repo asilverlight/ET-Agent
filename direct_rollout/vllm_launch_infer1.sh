@@ -48,16 +48,6 @@ CUDA_VISIBLE_DEVICES=2 nohup vllm serve $MODEL_PATH \
 INSTANCE3_PID=$!
 echo "Instance 2 deployed on port 9003 using GPU 2"
 
-echo "Starting Instance 3 on GPU 3"
-CUDA_VISIBLE_DEVICES=3 nohup vllm serve $MODEL_PATH \
-    --served-model-name $MODEL_NAME \
-    --max-model-len 32768 \
-    --tensor_parallel_size 1 \
-    --gpu-memory-utilization 0.95 \
-    --port 9004 > logs/YOUR_MODEL_NAME_4.log 2>&1 &
-INSTANCE4_PID=$!
-echo "Instance 3 deployed on port 9004 using GPU 3"
-
 # Display all running model services
 echo "---------------------------------------"
 echo "All deployed model instances:"
@@ -65,5 +55,5 @@ ps aux | grep "vllm serve" | grep -v grep
 echo "---------------------------------------"
 
 # Handle cleanup on termination
-trap "kill $INSTANCE1_PID $INSTANCE2_PID $INSTANCE3_PID $INSTANCE4_PID" SIGTERM
-wait $INSTANCE1_PID $INSTANCE2_PID $INSTANCE3_PID $INSTANCE4_PID
+trap "kill $INSTANCE1_PID $INSTANCE2_PID $INSTANCE3_PID" SIGTERM
+wait $INSTANCE1_PID $INSTANCE2_PID $INSTANCE3_PID

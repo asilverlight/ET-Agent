@@ -24,7 +24,6 @@ infer_endpoints=(
     "http://localhost:8011/v1"
     "http://localhost:8012/v1"
     "http://localhost:8013/v1"
-    "http://localhost:8014/v1"
 )  
 # 这是训好的推理模型
 ENDPOINTS=$(echo "${infer_endpoints[@]}" | tr '\n' ' ')
@@ -33,7 +32,7 @@ SAMPLE_TIMEOUT=1200  # Timeout for one sample
 
 EXP_NAME="Evaluation"
 MODEL_PATH="/path/to/your_model_path"
-DATA_PATH="/path/to/test"    
+DATA_PATH="ET-Agent/test"    
 OUTPUT_PATH="/path/to/output"
 
 with_tools=true
