@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Activate the Conda environment
-conda activate /path/to/conda/bin/python
 
 # Switch to the script's directory
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"

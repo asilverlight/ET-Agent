@@ -162,7 +162,7 @@ actor_rollout_ref:
         python:  
           class_path: verl.workers.rollout.tools.python_tool.PythonTool  # 工具类路径
           params:  # 工具特定参数
-            conda_path: /data/feifei
+            conda_path: /path/to/conda
             conda_env: arpo
         
         search:

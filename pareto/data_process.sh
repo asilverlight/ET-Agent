@@ -1,5 +1,5 @@
 python /path/to/pareto/data_process/data_process.py \
-    --data_path /path/to/output.json \
+    --data_path /path/to/output_direct_rollout.json \
     --output_path /path/to/output_pareto.json \
     --counts 8000 \
     --exp_type process_pareto_data
