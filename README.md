@@ -9,15 +9,15 @@
 </div> -->
 
 
-<!-- 
+
 <div align="center">
-  <a href="https://arxiv.org/abs/2509.23285">
+  <!-- <a href="https://arxiv.org/abs/2509.23285">
     <img src="https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv" alt="Arxiv">
   </a>
   <a href="https://huggingface.co/zhangboguodong/Tool-Light-Qwen2.5-7B-it">
     <img src="https://img.shields.io/badge/Model-Hugging%20Face-blue?logo=huggingface" alt="Hugging Face Models">
-  </a>
-  <a href="https://modelscope.cn/models/zhangboguodong/Tool_Light_Qwen2.5_7B_it">
+  </a> -->
+  <a href="https://modelscope.cn/models/zhangboguodong/ET-Agent-based-on-Qwen2.5-7B-it">
     <img src="https://custom-icon-badges.demolab.com/badge/Model-Model%20Scope-624aff?style=flat&logo=modelscope&logoColor=white" alt="ModelScope Models">
   </a>
   <a href="https://opensource.org/licenses/MIT">
@@ -26,7 +26,7 @@
   <a href="https://www.python.org/downloads/release/python-390/">
     <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python 3.10+">
   </a>
-</div> -->
+</div>
 
 ## 😃 Overview
 
