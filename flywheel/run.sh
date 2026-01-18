@@ -73,7 +73,6 @@ MAX_CONCURRENT=5                  # Max concurrent requests
 COUNTS=20                        # Number of samples to process
 
 # Tool configurations
-# CONDA_PATH="/home/u2024001049/.conda/"   # Conda installation path
 CONDA_ENV="/path/to/conda/bin/python"                                # Conda environment name
 PYTHON_MAX_CONCURRENT=32                        # Max concurrent Python executor
 BING_API_KEY="your_bing_api_key"  # Bing Search API key
